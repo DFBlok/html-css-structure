@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.content{
+    background-color: #23424a;
+    padding: 15px;
+    color: white;
+    border: 2px solid red;
+/*     display:flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center; */
+}
+
+.child-box{
+    width: 50%;
+    border: 2px solid purple;
+}
+
+/* .child2{
+    width: 50%;
+} */
