@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif  ;
+}
+
+header{
+    background-color: #23424a;
+    color: white;
+    padding: 50px 0;
+}
+
+.box2{
+    width: 80%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+/***************************section 2********************************/
+.box3{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #23424a;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-box{
+    width: 45%;
+}
+
+.section-text-1{
+    padding: 20px 20px;
+    margin: 20px;
+}
+
+.section-text-2{
+    padding: 20px 20px;
+    margin: 20px;
+}
+
+.section-text-3{
+    padding: 20px 20px;
+    margin: 20px;
+}
+
+/*******************END SECTION 2****************************/
+.flex-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    background-color: #23424a;
+
+}
+
+.flex-1{
+    padding: 20px 20px;
+    padding-left: 40px;
+    margin: 30px;
+    width: 50%;
+}
+
+.flex-2{
+    padding: 20px 20px;
+    padding-left: 40px;
+    margin: 30px;
+}
+
+/***********************END SECTION 3**********************************/
+.child-box2{
+
+    width:   50%;
+    
+}
+
+section {
+    padding: 16px 0;
+}
+
+.section-text{
+    width: 90% ;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+
+button{
+    background-color: antiquewhite;
+    padding: 17px 24px;
+    text-transform: uppercase;
+    border-radius: 32px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
