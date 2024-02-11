@@ -19,12 +19,12 @@ header{
     max-width: 750px;
     margin: 0 auto;
 }
-
+/***************************section 2********************************/
 .box3{
     display: flex;
     gap: 20px;
     justify-content: center;
-    border: 5px solid red;
+    align-items: center;
 }
 
 .section-text-1{
@@ -54,6 +54,30 @@ header{
     color: purple;
 }
 
+/*******************END SECTION 2****************************/
+.flex-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    background-color: #23424a;
+
+}
+
+.flex-1{
+    padding: 20px 20px;
+    padding-left: 40px;
+    margin: 30px;
+    width: 50%;
+}
+
+.flex-2{
+    padding: 20px 20px;
+    padding-left: 40px;
+    margin: 30px;
+}
+
+/***********************END SECTION 3**********************************/
 .child-box2{
 
     width:   50%;
