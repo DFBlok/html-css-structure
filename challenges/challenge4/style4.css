@@ -20,6 +20,40 @@ header{
     margin: 0 auto;
 }
 
+.box3{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border: 5px solid red;
+}
+
+.section-text-1{
+    padding: 20px 20px;
+    margin: 20px;
+}
+
+.section-text-2{
+    padding: 20px 20px;
+    margin: 20px;
+}
+
+.section-text-3{
+    padding: 20px 20px;
+    margin: 20px;
+}
+
+.section-text-3 h2{
+    color: purple;
+}
+
+.section-text-2 h2 {
+    color: purple;
+}
+
+.section-text-1 h2{
+    color: purple;
+}
+
 .child-box2{
 
     width:   50%;
