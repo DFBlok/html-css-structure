@@ -37,7 +37,7 @@ h1{
     margin-top: 0;
 }
 
-.conatiner{
+.container{
     width: 80%;
     max-width:  1100px;
     margin: 0 auto;
@@ -96,5 +96,37 @@ btn:focus{
     text-align: center;
     background-color: #23424a;
     padding: 12px;
+}
+
+/*****************NAV BAR****************/
+header {
+    background-color: #136c72;
+    padding:  .5rem 0;
+}
+
+.nav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav__link--button {
+    background-color: #fff;
+    color: #136c72;
+    padding: .25em 1em;
+    border-radius: 10em;
+}
+
+.nav__link:hover {
+    opacity: .75;
 }
 
