@@ -1,6 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
+*, *::before, *::after {
+    
     box-sizing: border-box;
 }
 
@@ -59,7 +58,7 @@ h1{
     text-transform: uppercase;
     color: #23424a;
     font-weight: 900;
-    background-color: #38CFD4;
+    background-color: #38CFD9;
     padding: .75em 2em;
     border-radius: 100px;
 }
@@ -68,3 +67,34 @@ h1{
 btn:focus{
     opacity: .75;
 }
+
+/*******section 2*******/
+.section1 {
+    margin: 16px 0;
+    padding: 20px 0;
+}
+
+.col {
+    width: 100%;
+}
+
+.col + .col {
+    margin-left: 30px;
+}
+
+.col h2 {
+    color: #38CFD9;
+}
+
+.col1{
+    width: 62%;
+}
+
+.col2 {
+    color: white;
+    width: 30%;
+    text-align: center;
+    background-color: #23424a;
+    padding: 12px;
+}
+
