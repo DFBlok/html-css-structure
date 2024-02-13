@@ -32,6 +32,8 @@ header p{
     font-size: 18px;
     font-weight: 800;
     text-transform: uppercase;
+    margin-bottom: 16px;
+    letter-spacing: 4px;
 }
 
 h1{
@@ -44,3 +46,5 @@ h1{
     max-width: 600px;
     margin: 0 auto;
 }
+
+/**********section 2****************/
