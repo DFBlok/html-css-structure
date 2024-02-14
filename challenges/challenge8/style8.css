@@ -14,7 +14,7 @@
 
 .container{
     width: 80%;
-    max-width:  1100px;
+    max-width:  1200px;
     margin: 0 auto;
 }
 
@@ -118,3 +118,6 @@ btn:focus{
     display: flex;
     gap: 30px;
 }
+
+
+/**************section 3****************/
