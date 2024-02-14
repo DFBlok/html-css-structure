@@ -63,9 +63,10 @@ header {
     gap: 30px;
     justify-content: center;
 }
-p {
+.hero__small p {
     padding-top: 50px;
     padding-bottom: 20px;
+    color: var(--color4)
 
 }
 
@@ -96,3 +97,24 @@ btn:focus{
     opacity: .75;
 }
 
+/*********section 2**************/
+.section2 {
+    margin: 16px 0;
+    padding: 20px 0;
+    background-color: var(--color4);
+}
+
+.flex-1{
+    padding: 20px 50px;
+    width: 100%;
+        
+}
+
+.flex-1 h2{
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    gap: 30px;
+}
