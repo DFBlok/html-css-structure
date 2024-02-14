@@ -35,13 +35,20 @@
 /**nav bar*/
 header {
     background-color: var(--color1);
-    padding: 10px 0;
+    padding: 15px 0;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+}
+
+.navbar{
+    display: flex;
+    
 }
 
 .nav__list {
     display: flex;
     list-style-type: none;
-    gap: 10px;
+    gap: 15px;
     margin: 0;
     padding: 0;
     align-items: center;
@@ -54,10 +61,12 @@ header {
 }
 
 .nav__link--button {
-    background-color: #fff;
-    color: #136c72;
+    background-color: var(--color5);
+    color: var(--color4);
     padding: .25em 1em;
     border-radius: 10em;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .nav__link:hover {
@@ -76,7 +85,7 @@ header {
     justify-content: center;
 }
 .hero__small p {
-    padding-top: 50px;
+    padding-top: 250px;
     padding-bottom: 20px;
     color: var(--color4)
 
@@ -90,7 +99,10 @@ header {
     color: var(--color4)
 }
 
-
+.hero__small a{
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+}
 
 
 .btn {
@@ -111,9 +123,8 @@ btn:focus{
 
 /*********section 2**************/
 .section2 {
-    margin: 16px 0;
     padding: 20px 0;
-    background-color: var(--color4);
+    background-color: whitesmoke;
 }
 
 .flex-1{
