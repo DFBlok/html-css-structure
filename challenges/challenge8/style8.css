@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Oswald:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +21,16 @@
 }
 
 
+/***Fonts***/
+.section1 h1{
+    font-family: "Oswald", sans-serif;
+    font-size: 90px;
+}
+
+.hero__small p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+}
 
 /**nav bar*/
 header {
