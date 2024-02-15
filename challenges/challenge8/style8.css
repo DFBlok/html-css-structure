@@ -156,3 +156,59 @@ btn:focus{
 }
 
 /**************section 3****************/
+.section3{
+    padding: 20px 0;
+}
+
+img{
+    max-width: 100%;
+    object-fit: contain;
+}
+
+
+.col-box1{
+    background-color: #3b4050;
+    padding: 30px;
+    color: var(--color4);
+}
+
+.col-box1 h2{
+    color: var(--color5);
+    text-align: center;
+    padding: 5px;
+}
+
+.col-box1 p{
+    text-align: center;
+}
+
+.col-box2{
+    background-color: red;
+    padding: 30px;
+    color: var(--color4);
+    text-align: center;
+}
+
+.col-box2 h2{
+    color: var(--color5);
+    padding: 5px;
+}
+
+.col h2{
+    color: var(--color5);
+    padding: 5px;
+}
+
+.col p{
+    padding: 20px 0;
+}
+
+/*************FOOTER***************/
+footer{
+    background-color: var(--color2);
+}
+
+.container h2{
+    text-align: center;
+    color: var(--color5);
+}
