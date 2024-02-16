@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+.html{
+    font-size: 10px;
+}
+
 :root{
     --color1: #2e323f;
     --color2: #3b4050;
@@ -20,10 +24,22 @@
     margin: 0 auto;
 }
 
+.row{
+    display: flex;
+    gap: 4rem;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3{
+    font-family: "Oswald", sans-serif;
+}
+
 
 /***Fonts***/
 .section1 h1{
-    font-family: "Oswald", sans-serif;
     font-size: 90px;
 }
 
@@ -69,6 +85,8 @@ header {
     text-transform: uppercase;
 }
 
+
+
 .nav__link:hover {
     opacity: .75;
 }
@@ -87,8 +105,13 @@ header {
 .hero__small p {
     padding-top: 250px;
     padding-bottom: 20px;
+    font-size: 1.5rem;
     color: var(--color4)
 
+}
+
+.hero__big span{
+    color: var(--color5);
 }
 
 .hero__big h2{
@@ -96,7 +119,10 @@ header {
 }
 
 .hero__big h1{
-    color: var(--color4)
+    color: var(--color4);
+    font-family: "Oswald", sans-serif;
+    font-size: 5rem;
+
 }
 
 .hero__small a{
@@ -125,22 +151,16 @@ btn:focus{
 .section2 {
     padding: 70px 0;
     background-color: whitesmoke;
-    align-items: center;
+    text-align: center;
 }
 
 .flex-1{
-    padding: 20px 50px;
+    padding: 5px 50px;
     width: 50%;
     align-items: center;
         
 }
 
-.row{
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-}
 .flex-1 h2{
     color: var(--color5);
     font-family: "Oswald", sans-serif;
@@ -149,10 +169,11 @@ btn:focus{
 
 
 .flex-1 p{
-    padding: 20px 0px;
+    padding: 5px 0px;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
-    align-items:baseline;
+    text-align: center;
+    color: var(--color1);
 }
 
 /**************section 3****************/
@@ -168,6 +189,7 @@ img{
 
 .col-box1{
     background-color: #3b4050;
+    margin-bottom: 20px;
     padding: 30px;
     color: var(--color4);
 }
@@ -197,10 +219,14 @@ img{
 .col h2{
     color: var(--color5);
     padding: 5px;
+    font-family: "Oswald", sans-serif;
+    font-size: 36px;
 }
 
 .col p{
     padding: 20px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
 }
 
 /*************FOOTER***************/
@@ -208,7 +234,42 @@ footer{
     background-color: var(--color2);
 }
 
+.footer__row{
+    display: flex;
+    gap: 20px;
+}
+
 .container h2{
     text-align: center;
     color: var(--color5);
+    padding: 20px;
+}
+
+.row__box2{
+    color: var(--color4);
+    
+}
+
+.row__box2 h2{
+    background-color: pink;
+    align-items: flex-start;
+}
+
+.row__box2 ul{
+    list-style-type: none;
+    background-color: red;
+}
+
+.row__box2 li{
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.row__box1 p{
+    color: var(--color4);
+    
+} 
+
+.col-flex{
+    flex: 1;
 }
