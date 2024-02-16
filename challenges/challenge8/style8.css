@@ -187,43 +187,42 @@ img{
 }
 
 
-.col-box1{
+.col-box2{
     background-color: #3b4050;
     margin-bottom: 20px;
     padding: 30px;
     color: var(--color4);
 }
 
-.col-box1 h2{
-    color: var(--color5);
-    text-align: center;
-    padding: 5px;
-}
-
-.col-box1 p{
-    text-align: center;
-}
-
-.col-box2{
-    background-color: red;
-    padding: 30px;
+.col-box2 h2{
     color: var(--color4);
     text-align: center;
+    padding: 5px;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
 }
 
-.col-box2 h2{
-    color: var(--color5);
-    padding: 5px;
+.col-box2 p{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
 }
 
-.col h2{
+
+.col-box1 h2{
     color: var(--color5);
-    padding: 5px;
     font-family: "Oswald", sans-serif;
     font-size: 36px;
 }
 
-.col p{
+/* .col h2{
+    color: var(--color5);
+    padding: 5px;
+    font-family: "Oswald", sans-serif;
+    font-size: 36px;
+} */
+
+.col-box1 p{
     padding: 20px 0;
     font-family: "Montserrat", sans-serif;
     font-size: 21px;
@@ -232,14 +231,16 @@ img{
 /*************FOOTER***************/
 footer{
     background-color: var(--color2);
+    
 }
 
 .footer__row{
     display: flex;
     gap: 20px;
+    
 }
 
-.container h2{
+footer h2{
     text-align: center;
     color: var(--color5);
     padding: 20px;
@@ -251,13 +252,13 @@ footer{
 }
 
 .row__box2 h2{
-    background-color: pink;
     align-items: flex-start;
+    font-family: "Oswald", sans-serif;
+    font-size: 21px;
 }
 
 .row__box2 ul{
     list-style-type: none;
-    background-color: red;
 }
 
 .row__box2 li{
@@ -267,6 +268,8 @@ footer{
 
 .row__box1 p{
     color: var(--color4);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
     
 } 
 
