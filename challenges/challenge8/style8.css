@@ -26,14 +26,15 @@
 
 .row{
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
+    align-items: center;
 }
 
 body {
     font-family: "Montserrat", sans-serif;
 }
 
-h1, h2, h3{
+h1, h2, h3, a{
     font-family: "Oswald", sans-serif;
 }
 
@@ -51,17 +52,30 @@ h1, h2, h3{
 /**nav bar*/
 header {
     background-color: var(--color1);
-    padding: 15px 0;
-    font-family: "Oswald", sans-serif;
-    font-size: 18px;
-}
-
-.navbar{
-    display: flex;
+    padding: 1.6rem;
+    color: white;
     
 }
 
-.nav__list {
+header h1{
+    font-size: 2rem;
+}
+
+.row_nav{
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color4);
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+li{
+    list-style: none;
+}
+/* .nav__list {
     display: flex;
     list-style-type: none;
     gap: 15px;
@@ -74,7 +88,7 @@ header {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-}
+} */
 
 .nav__link--button {
     background-color: var(--color5);
@@ -87,7 +101,7 @@ header {
 
 
 
-.nav__link:hover {
+.nav__link--button:hover {
     opacity: .75;
 }
 
