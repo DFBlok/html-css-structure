@@ -163,7 +163,7 @@ btn:focus{
 
 /*********section 2**************/
 .section2 {
-    padding: 70px 0;
+    padding: 50px 0;
     background-color: whitesmoke;
     text-align: center;
 }
@@ -172,6 +172,7 @@ btn:focus{
     padding: 5px 50px;
     width: 50%;
     align-items: center;
+    flex: 1;
         
 }
 
@@ -179,6 +180,7 @@ btn:focus{
     color: var(--color5);
     font-family: "Oswald", sans-serif;
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
 
@@ -192,8 +194,23 @@ btn:focus{
 
 /**************section 3****************/
 .section3{
-    padding: 20px 0;
+    padding: 50px 0;
 }
+
+.parent{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.leftbox{
+    width: 60%;
+}
+
+.rightbox{
+    width: 30%;
+}
+
 
 img{
     max-width: 100%;
@@ -204,7 +221,7 @@ img{
 .col-box2{
     background-color: #3b4050;
     margin-bottom: 20px;
-    padding: 30px;
+    padding: 3rem;
     color: var(--color4);
 }
 
